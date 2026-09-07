@@ -2,6 +2,19 @@
 
 Gentoo overlay for [polonius' fluxer-tui fork](https://github.com/AIVirtuoso/fluxer-tui)
 
+# Installation
+
+```
+# if you don't already have eselect-repository install it:
+emerge --ask app-eselect/eselect-repository
+# add the repository:
+eselect repository add fluxer-tui-overlay git https://github.com/cylenia/fluxer-tui-overlay
+# sync your repositories:
+emerge --sync
+# install fluxer-tui:
+doas emerge -av fluxer-tui 
+```
+
 # Credits
 
 - polonius for maintaining the fork of fluxer-tui
