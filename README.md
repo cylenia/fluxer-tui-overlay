@@ -1,3 +1,3 @@
 # fluxer-tui-overlay
 
-Gentoo overlay for [polonius](https://github.com/AIVirtuoso/fluxer-tui)
+Gentoo overlay for [polonius' fluxer-tui fork](https://github.com/AIVirtuoso/fluxer-tui)
