@@ -389,7 +389,3 @@ LICENSE+="
 "
 SLOT="0"
 KEYWORDS="~amd64"
-
-src_install() {
-  dobin target/release/fluxer-tui
-}
