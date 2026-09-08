@@ -1,0 +1,12 @@
+BDEPEND=|| ( >=dev-lang/rust-bin-1.74.1:* >=dev-lang/rust-1.74.1:* ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install setup test unpack
+DESCRIPTION=A TUI chat client for the Fluxer messaging platform
+EAPI=8
+HOMEPAGE=https://github.com/AIVirtuoso/fluxer-tui
+INHERIT=cargo git-r3
+IUSE=chafa clipboard wayland X debug
+LICENSE=MIT Apache-2.0 BSD-2 BSD CDLA-Permissive-2.0 ISC MIT MPL-2.0 UoI-NCSA Unicode-3.0 ZLIB
+PROPERTIES=live
+SLOT=0
+_eclasses_=toolchain-funcs	58a918e3a42d0156f010dcfd43725be5	flag-o-matic	fd3558f73f6503093adee69adf41020d	multiprocessing	45d0620f25c2f063ad6276ecd9ed9399	rust	71b6825bd86e342e1540c76cc6fe864b	rust-toolchain	76468983281b0a7fc167ca224f84ecfd	cargo	c18ade5e10cfd39155908ca389968d65	git-r3	e6c2f983e006e805160436c75a0c1562
+_md5_=352010c8c43827e980fc796fccbaeddc

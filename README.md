@@ -4,6 +4,9 @@ Gentoo overlay for [polonius' fluxer-tui fork](https://github.com/AIVirtuoso/flu
 
 # Installation
 
+It is highly recommended to install the live ebuild, because changes are fast at the moment.
+You will need to set `/etc/portage/package.accept_keywords/fluxer-tui` to `=net-im/fluxer-tui-9999 **`.
+
 ```
 # if you don't already have eselect-repository install it:
 emerge --ask app-eselect/eselect-repository

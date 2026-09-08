@@ -31,7 +31,6 @@ CRATES="
 	built@0.8.0
 	bumpalo@3.20.2
 	bytemuck@1.25.0
-	bytemuck_derive@1.12.0
 	byteorder-lite@0.1.0
 	bytes@1.11.1
 	cassowary@0.3.0
@@ -71,10 +70,6 @@ CRATES="
 	dirs@6.0.0
 	displaydoc@0.2.5
 	document-features@0.2.12
-	drm-ffi@0.9.1
-	drm-fourcc@2.2.0
-	drm-sys@0.8.1
-	drm@0.15.0
 	either@1.15.0
 	emojis@0.8.0
 	equator-macro@0.4.2
@@ -89,7 +84,6 @@ CRATES="
 	find-msvc-tools@0.1.9
 	flate2@1.1.9
 	foldhash@0.1.5
-	font-types@0.12.4
 	form_urlencoded@1.2.2
 	futures-channel@0.3.32
 	futures-core@0.3.32
@@ -146,7 +140,6 @@ CRATES="
 	libredox@0.1.15
 	linux-raw-sys@0.12.1
 	linux-raw-sys@0.4.15
-	linux-raw-sys@0.9.4
 	litemap@0.8.2
 	litrs@1.0.0
 	lock_api@0.4.14
@@ -207,7 +200,6 @@ CRATES="
 	ravif@0.13.0
 	rayon-core@1.13.0
 	rayon@1.11.0
-	read-fonts@0.41.0
 	redox_syscall@0.5.18
 	redox_users@0.5.2
 	reqwest@0.12.28
@@ -239,7 +231,6 @@ CRATES="
 	simd_helpers@0.1.0
 	simdutf8@0.1.5
 	siphasher@1.0.2
-	skrifa@0.44.0
 	slab@0.4.12
 	smallvec@1.15.1
 	socket2@0.6.3
@@ -249,9 +240,7 @@ CRATES="
 	strum@0.26.3
 	strum_macros@0.26.4
 	subtle@2.6.1
-	swash@0.2.10
 	syn@2.0.117
-	syn@3.0.5
 	sync_wrapper@1.0.2
 	synstructure@0.13.2
 	tempfile@3.27.0
@@ -349,10 +338,8 @@ CRATES="
 	wit-bindgen@0.51.0
 	writeable@0.6.3
 	y4m@0.8.0
-	yazi@0.2.1
 	yoke-derive@0.8.2
 	yoke@0.8.2
-	zeno@0.3.3
 	zerocopy-derive@0.8.48
 	zerocopy@0.8.48
 	zerofrom-derive@0.1.7
