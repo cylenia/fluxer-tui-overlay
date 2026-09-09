@@ -30,7 +30,7 @@ RDEPENDS="
 	)
 "
 
-LICENSE="GPL-3.0-or-later"
+LICENSE="GPL-3+"
 # Dependent crate licenses
 LICENSE+="
 	Apache-2.0 BSD-2 BSD CDLA-Permissive-2.0 ISC MIT MPL-2.0 UoI-NCSA
