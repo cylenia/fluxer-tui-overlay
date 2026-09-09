@@ -2,7 +2,7 @@ EAPI=8
 
 inherit cargo git-r3
 
-DESCRIPTION="A TUI chat client for the Fluxer messaging platform"
+DESCRIPTION="A keyboard-only TUI chat client for the Fluxer messaging platform, with inline media, notifications and Linux console support."
 HOMEPAGE="https://github.com/AIVirtuoso/fluxer-tui"
 EGIT_REPO_URI="https://github.com/AIVirtuoso/fluxer-tui.git"
 
@@ -30,7 +30,7 @@ RDEPENDS="
 	)
 "
 
-LICENSE="MIT"
+LICENSE="GPL-3.0-or-later"
 # Dependent crate licenses
 LICENSE+="
 	Apache-2.0 BSD-2 BSD CDLA-Permissive-2.0 ISC MIT MPL-2.0 UoI-NCSA
