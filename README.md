@@ -1,6 +1,6 @@
 # fluxter-overlay
 
-Gentoo overlay for [polonius' fluxer-tui fork](https://github.com/AIVirtuoso/fluxter)\
+Gentoo overlay for [polonius' fluxer-tui fork called fluxter](https://github.com/AIVirtuoso/fluxter).\
 Note that unlike the original project which was MIT, this fork is GPL-3+.\
 This overlay is still MIT.
 
