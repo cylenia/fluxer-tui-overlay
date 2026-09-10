@@ -3,8 +3,8 @@ EAPI=8
 inherit cargo git-r3
 
 DESCRIPTION="A keyboard-only TUI chat client for the Fluxer messaging platform, with inline media, notifications and Linux console support."
-HOMEPAGE="https://github.com/AIVirtuoso/fluxer-tui"
-EGIT_REPO_URI="https://github.com/AIVirtuoso/fluxer-tui.git"
+HOMEPAGE="https://github.com/AIVirtuoso/fluxter"
+EGIT_REPO_URI="https://github.com/AIVirtuoso/fluxter.git"
 
 IUSE="
 	chafa

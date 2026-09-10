@@ -1,21 +1,40 @@
-# fluxer-tui-overlay
+# fluxter-overlay
 
-Gentoo overlay for [polonius' fluxer-tui fork](https://github.com/AIVirtuoso/fluxer-tui)
+Gentoo overlay for [polonius' fluxer-tui fork](https://github.com/AIVirtuoso/fluxter)
+Note that unlike the original project which was MIT, this fork is GPL-3+.
+This overlay is still MIT.
 
 # Installation
 
-It is highly recommended to install the live ebuild, because changes are fast at the moment.
-You will need to set `/etc/portage/package.accept_keywords/fluxer-tui` to `=net-im/fluxer-tui-9999 **`.
-
+It is mandatory to use the live ebuild at the current moment, because no releases exist.  
+You will need to set `/etc/portage/package.accept_keywords/fluxter` to `=net-im/fluxter-9999 **`.
+Replace all "doas" with "sudo" if you use sudo.
 ```
 # if you don't already have eselect-repository install it:
-emerge --ask app-eselect/eselect-repository
+doas emerge --ask app-eselect/eselect-repository
 # add the repository:
-eselect repository add fluxer-tui-overlay git https://github.com/cylenia/fluxer-tui-overlay
+doas eselect repository add fluxter-overlay git https://github.com/cylenia/fluxter-overlay
 # sync your repositories:
-emerge --sync
+doas emerge --sync
 # install fluxer-tui:
-doas emerge -av fluxer-tui 
+doas emerge -av fluxter
+```
+
+# Migration Guide
+
+If you used this overlay before 09/10/26, you may have the old package name.  
+Polonius changed the name of the package and repo upstream to Fluxter.
+This requires manual effort to adjust.
+Replace all "doas" with "sudo" if you use sudo.
+
+```
+# remove the old name
+doas eselect repository remove -f fluxer-tui-overlay
+# unmerge the old package
+doas emerge --unmerge fluxer-tui
+# if you were using the live ebuild, delete old accept_keywords
+doas rm /etc/portage/package.accept_keywords/fluxer-tui
+# follow installation steps above
 ```
 
 # Credits
